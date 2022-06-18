@@ -2,7 +2,7 @@ import streamlit as st
 #import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
-df=pd.read_csv(r'C:\Users\Admin\Desktop\Dash\SampleSuperstore.csv')
+df=pd.read_csv(r'SampleSuperstore.csv')
 st.write("Hello ,let's learn how to display Samplesuperstone data")
 #st.selectbox('Pick your gender',['Male','Female'])
 abc=st.selectbox('Pick the Region:' ,['East','West','South','Central'])
